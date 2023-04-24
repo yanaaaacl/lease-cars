@@ -540,3 +540,108 @@ font-weight: 400;
     margin: 0 auto;
 }
 
+/*NEW-CARS.HTML*/
+
+/*SECTION-CHOOSE*/
+
+.choose{
+    padding: 100px 0;
+
+}
+
+.tabs{
+padding-bottom: 70px;
+}
+
+.tabs__btn{
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 80px;
+    
+
+}
+
+.tabs__btn-item{
+    font-family: 'Inter', sans-serif;
+    color: #151515;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.tabs__btn-item--active{
+    color: #0066FF;
+}
+
+.tabs__content{
+
+}
+
+.tabs__content-item.tabs__content-item--active{
+display: grid;
+}
+
+.tabs__content-item{
+    display: none;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+
+}
+
+
+.card{
+    text-align: center;
+
+}
+
+.card__img{
+    display: block;
+    
+
+}
+
+.card__content{
+    padding: 0 5px;
+    border: 1px solid #0066FF;
+    border-top: none;
+}
+
+.card__title{
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+
+.card__text{
+    margin-bottom: 20px;
+    font-weight: 400;
+    
+
+}
+
+.card__price{
+margin-bottom: 20px;
+font-size: 24px;
+line-height: 29px;
+}
+
+.card__link{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    color: #0066FF;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    border: 1px solid #0066FF;
+    border-top: none;
+    padding: 2px 0;
+
+}
